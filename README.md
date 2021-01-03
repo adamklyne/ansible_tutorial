@@ -51,10 +51,10 @@ stuff
 
 ### - [ ] Cookies without Secure flag
 
-### - [ ] SQL injection in Application2
-  http://application2.client/index.do?id=1' union select 1,2,3,@@version
-  screenshot -> application2_sqli_version.png
-  pre-auth
+### - [x] SQL injection in Application2
+http://application2.client/index.do?id=1' union select 1,2,3,@@version
+screenshot -> application2_sqli_version.png
+pre-auth
 
 ## Task 1. test 
  
