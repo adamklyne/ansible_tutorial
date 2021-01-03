@@ -3,13 +3,13 @@
 Test Ansible repo for learning Ansible.
 
 
-								# Project Name
+# Project Name
 Start date: dd/mm/yyyy
 Finish date: dd/mm/yyyy
 
-{{ Network Information
+{{ ## Network Information
 
-{{ Day 1
+{{ ### Day 1
 
 $ ifconfig
 
@@ -22,6 +22,10 @@ $ cat /etc/resolve.conf
 $ route -n
 
 [...]
+
+}}
+
+{{ ### Day 2
 
 }}
 }}
@@ -44,16 +48,16 @@ $ route -n
  }}
 
 
-{{ Issues
-[ ] Login form over HTTP for Application1
+{{ ## Issues
+[] Login form over HTTP for Application1
 {{
  ...
  }}
- [ ] Cookies without Secure flag
+ [] Cookies without Secure flag
  {{
  }}
 
- [ ] SQL injection in Application2
+ [] SQL injection in Application2
  {{
  http://application2.client/index.do?id=1' union select 1,2,3,@@version
  screenshot -> application2_sqli_version.png
@@ -62,8 +66,8 @@ $ route -n
 
 
 
-''' Key for boxes
+### Key for boxes
 [ ]: new. The issue has not been communicated.
 [-]: communicated. The issue has been communicated to the client/project/…
 [X]: reported. The issue is in the report.
-'''
+
